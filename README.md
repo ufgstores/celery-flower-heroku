@@ -1,4 +1,11 @@
-# Celery Flower monitoring for Heroku
+Requirements
+============
+This project use same broker as the UFGtools,
+so keeps the same versions of amqp libraries (amqp, billiar, celery, kombu)
+
+
+Celery Flower monitoring for Heroku
+===================================
 
 [Flower](https://github.com/mher/flower/) is a handy tool for monitoring [Celery](http://www.celeryproject.org/) processes. As it's build on top of Tornado web server it needs it's own outside facing port and can't be run as part of your regular Heroku app which only provides one ```web``` process type. Luckily Flower is really easy to install as another app and can be run free of charge on Heroku.
 

@@ -1,2 +1,8 @@
+amqp==1.49
+Babel==2.2.0      
+billiard==3.3.0.22
+celery==3.1.20
 flower
-redis
+futures==3.0.4
+kombu==3.0.33
+redis==2.10.5
