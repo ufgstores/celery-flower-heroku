@@ -3,6 +3,5 @@ Babel==2.9.1
 billiard==3.6.4.0
 celery==5.2.3
 flower==1.0.0
-futures==3.3.0
 kombu==5.2.3
 redis==4.1.3
