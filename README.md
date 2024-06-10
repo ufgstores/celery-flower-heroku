@@ -29,8 +29,14 @@ Configure the app by providing your broker url (RabbitMQ, Redis, what have you) 
     heroku config:set BROKER_URL=redis://...
     heroku config:set FLOWER_BASIC_AUTH="username:password"
 
+Add a remote 
+
+https://devcenter.heroku.com/articles/git#for-an-existing-app
+
+    heroku git:remote -a ufgtools-flower
+
 Push to heroku:
 
-    git push heroku master
+    make deploy
 
 Now visit the app. It will ask for a username and a password which you defined above.
